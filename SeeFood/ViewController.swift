@@ -52,7 +52,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             
             if let firstResult = results.first {
                 if firstResult.identifier.contains("hotdog") {
-                    self.navigationItem.title = "Hotdog! \(Double(firstResult.confidence)*100)%"
+                    self.navigationItem.title = "Hotdog! \(Float(firstResult.confidence)*100)%"
                 } else {
                     self.navigationItem.title = "Not Hotdog! Maybe \(firstResult.identifier)"
                 }
