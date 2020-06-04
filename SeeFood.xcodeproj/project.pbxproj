@@ -15,6 +15,7 @@
 		6D1710E02489680300EA4A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1710DF2489680300EA4A13 /* Assets.xcassets */; };
 		6D1710E32489680300EA4A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1710E12489680300EA4A13 /* LaunchScreen.storyboard */; };
 		6D1710EB2489686700EA4A13 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6D1710EA2489686700EA4A13 /* Inceptionv3.mlmodel */; };
+		6D1710ED24897E2400EA4A13 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6D1710EC24897E2400EA4A13 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6D1710E22489680300EA4A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D1710E42489680300EA4A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D1710EA2489686700EA4A13 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		6D1710EC24897E2400EA4A13 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				6D1710E42489680300EA4A13 /* Info.plist */,
 				6D1710DC2489680100EA4A13 /* SeeFood.xcdatamodeld */,
 				6D1710EA2489686700EA4A13 /* Inceptionv3.mlmodel */,
+				6D1710EC24897E2400EA4A13 /* SqueezeNet.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D1710EB2489686700EA4A13 /* Inceptionv3.mlmodel in Sources */,
+				6D1710ED24897E2400EA4A13 /* SqueezeNet.mlmodel in Sources */,
 				6D1710D82489680100EA4A13 /* ViewController.swift in Sources */,
 				6D1710DE2489680100EA4A13 /* SeeFood.xcdatamodeld in Sources */,
 				6D1710D42489680100EA4A13 /* AppDelegate.swift in Sources */,

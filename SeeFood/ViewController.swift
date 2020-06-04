@@ -42,7 +42,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     func detect(image: CIImage) {
         
-        guard let model = try? VNCoreMLModel(for: Inceptionv3().model) else {
+        guard let model = try? VNCoreMLModel(for: SqueezeNet().model) else {
             fatalError("Loading CoreML Model Failed")
         }
         let request = VNCoreMLRequest(model: model) { (request, error) in
